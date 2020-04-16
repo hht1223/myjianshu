@@ -1,0 +1,92 @@
+.home_wrapper{
+    overflow: hidden;
+    width: 960px;
+    margin: 0 auto;
+}
+.home_left,.home_left_banner{
+    float: left;
+    margin-left: 15px;
+    padding-top: 30px;
+    width: 625px;
+}
+.home_left_banner{
+    width: 625px;
+    height: 270px;
+}
+.home_right{
+    width: 280px;
+    float: right;
+}
+.topic_wrapper{
+    overflow: hidden;
+    padding: 20px 0 10px 0;
+    margin-left: -18px;
+    border-bottom: 1px solid #dcdcdc;
+}
+.list_item,.list_item_pic{
+    overflow: hidden;
+    padding: 20px 0;
+    border-bottom: 1px solid #dcdcdc;
+}
+.list_item_pic{
+    display: block;
+    width: 125px;
+    height: 100px;
+    float: right;
+    border-radius: 10px;
+}
+.list_info,.list_info_title,.list_info_desc{
+    width: 500px;
+    float: left;
+}
+.list_info_title{
+    line-height: 27px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+}
+.list_info_desc{
+    line-height: 24px;
+    font-size: 13px;
+    color: #999999;
+}
+.load_more{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin: 30px 0;
+    background: #a5a5a5;
+    text-align: center;
+    border-radius: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.recommend_wrapper{
+    margin: 30px 0;
+    width: 280px;
+}
+.recommend_item{
+    width: 280px;
+    height: 50px;
+    background-color: #0099ff;
+    background-size: contain;
+}
+.writer_wrapper{
+    width: 278px;
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+}
+.back_top{
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid #cccccc;
+    font-size: 14px;
+}

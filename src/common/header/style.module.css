@@ -1,0 +1,114 @@
+.header_wrapper{
+    z-index: 1;
+    position: relative;
+    height: 56px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100px;
+    height: 56px;
+    background: url(./../../statics/logo.png);
+    background-size: contain;
+}
+.nav{
+    width: 960px;
+    height: 100%;
+    padding-right: 70px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.nav_item,.nav_item_left,.nav_item_right,.nav_item_active{
+    line-height: 56px;
+    padding: 0 15px;
+    font-size: 17px;
+    color: #333333;
+}
+.nav_item_left{
+    float: left;
+}
+.nav_item_right{
+    float: right;
+    color: #969696;
+}
+.nav_item_active{
+    color: #ea6f5a;
+}
+.sign_out{
+    cursor: pointer;
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('./../../statics/iconfont/iconfont.ttf') format('truetype'),
+    url('./../../statics/iconfont/iconfont.woff') format('woff'),
+    url('./../../statics/iconfont/iconfont.eot') format('embedded-opentype');
+    /* Add other formats as you see fit */
+    }
+.iconfont,.iconfont_zoom{
+    font-family: 'iconfont';
+    font-size: 17px;
+}
+.iconfont_zoom{
+    position: absolute;
+    left: 150px;
+    top: 20px;
+}
+.search_wrapper,.search_wrapper.focused{
+    position: relative;
+    float: left;
+}
+.search_wrapper.zoom{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+.search_wrapper.focused{
+    background: #777777;
+    color: #ffffff;
+}
+.nav_search{
+    width: 160px;
+    height: 38px;
+    padding: 0 30px 0 20px;
+    margin-top: 9px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-radius: 19px;
+    background: #eeeeee;
+    font-size: 14px;
+    color: #666666;
+}
+.addition{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 56px;
+}
+.write_article,.write_reg{
+    float: right;
+    margin-top: 9px;
+    margin-right: 20px;
+    padding: 0 20px;
+    line-height: 38px;
+    border-radius: 19px;
+    border: 1px solid #ec6149;
+    font-size: 14px;
+}
+.write_article{
+    color: #ffffff;
+    background: #ec6149;
+}
+.write_reg
+{
+    color: #ec6149;
+    cursor: pointer;
+}    
